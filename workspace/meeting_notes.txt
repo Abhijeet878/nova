@@ -1,0 +1,5 @@
+Meeting Notes - Q4 Planning
+Topics discussed:
+- AI automation strategy
+- Local LLM deployment with Ollama
+- Privacy compliance under DPDP

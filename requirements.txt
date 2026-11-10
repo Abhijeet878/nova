@@ -1,0 +1,25 @@
+# === Core Agent Framework ===
+langgraph>=0.2.0             # State-machine agent orchestration (our brain's workflow)
+langchain-core>=0.3.0        # Base classes for LLM integration
+langchain-ollama>=0.3.0      # Connects LangChain to local Ollama server
+
+# === Backend API ===
+fastapi>=0.115.0             # REST API framework (connects UI to agents)
+uvicorn>=0.30.0              # ASGI server to run FastAPI
+pydantic>=2.0.0              # Data validation & structured schemas
+
+# === Frontend Dashboard ===
+gradio>=5.0.0                # Web UI with zero HTML/CSS needed
+
+# === Agent Tools ===
+duckduckgo-search>=6.0.0     # Free web search (no API key)
+beautifulsoup4>=4.12.0       # Web page scraping
+requests>=2.31.0             # HTTP requests
+pandas>=2.0.0                # Data analysis
+lxml>=5.0.0                  # HTML/XML parser for BeautifulSoup
+
+# === Memory & Storage ===
+chromadb>=0.5.0              # Vector database for agent memory
+
+# === Utilities ===
+python-dotenv>=1.0.0         # Load .env configuration files
